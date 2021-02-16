@@ -3,6 +3,8 @@ from bs4 import BeautifulSoup
 import os
 import textwrap
 
+finaldirecttory = os.path
+
 def findallhtml():
   path ='./'
   for root, directories, file in os.walk(path):
@@ -36,10 +38,8 @@ def draw(filename, text):
 
   draw.text((1100,360), "•", font=fontSmall, fill=(0,0,0))
 
-  fn = os.path.join("/" + filename + ".jpeg")
+  fn = finaldirecttory + "/" + filename + ".jpeg"
   image.save(fn, 'jpeg')
   print("finish: " + fn)
-
-print(os.path)  
 
 findallhtml()
