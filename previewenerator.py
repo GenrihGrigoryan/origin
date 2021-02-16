@@ -36,7 +36,9 @@ def draw(filename, text):
 
   draw.text((1100,360), "•", font=fontSmall, fill=(0,0,0))
 
-  image.save("./assets/" + filename + ".jpeg", 'jpeg')
+  image.save(".origin/assets/" + filename + ".jpeg", 'jpeg')
   print("finish: " + filename)
+
+print(os.path)  
 
 findallhtml()
