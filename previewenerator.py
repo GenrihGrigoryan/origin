@@ -35,7 +35,7 @@ def draw(filename, text):
 
   draw.text((1100,360), "•", font=fontSmall, fill=(0,0,0))
 
-  image.save("./assets/preview/" + filename + '.png')
+  image.save(filename + '.png')
   print("finish")
 
 findallhtml()
