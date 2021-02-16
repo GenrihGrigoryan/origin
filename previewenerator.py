@@ -14,6 +14,7 @@ def findallhtml():
 def readhtml(filename):
   with open(filename, 'r') as f:
     contents = f.read()
+    print(filename)
     soup = BeautifulSoup(contents, 'html.parser')
     name = filename.split("/")[-1].split(".html")[0]
     title = soup.title.string.split('— Origin')[0]
@@ -35,7 +36,7 @@ def draw(filename, text):
 
   draw.text((1100,360), "•", font=fontSmall, fill=(0,0,0))
 
-  image.save(filename + '.png')
+  image.save("assets/" + filename + '.png')
   print("finish")
 
 findallhtml()
