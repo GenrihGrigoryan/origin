@@ -1,6 +1,8 @@
 name: "Python Update"
 on:
-  page_build
+  push:
+    branches:
+      - main
 
 jobs:
   build:
