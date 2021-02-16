@@ -4,7 +4,7 @@ import os
 import textwrap
 
 def findallhtml():
-  path ='/'
+  path ='./'
   for root, directories, file in os.walk(path):
     for file in file:
       if(file.endswith(".html")):
