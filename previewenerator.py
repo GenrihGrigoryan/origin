@@ -39,8 +39,4 @@ def draw(filename, text):
   image.save(fn, 'jpeg')
   print("finish: " + fn)
 
-# findallhtml()
-
-filename = './empty.txt' # select file that you want to add some text inside.
-with open(filename, 'w') as file_obj: # open function with 'w' argument it is mean you will add some text in empty file
-    file_obj.write("I love programming!\n")
+findallhtml()
