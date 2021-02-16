@@ -15,5 +15,5 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - run:
         python -m pip install --upgrade pip
-        pip install Pillow bs4 textwrap
+        pip install Pillow bs4 textwrap3
     - run: python previewenerator.py
