@@ -36,8 +36,9 @@ def draw(filename, text):
 
   draw.text((1100,360), "•", font=fontSmall, fill=(0,0,0))
 
-  image.save("/assets/" + filename + ".jpeg", 'jpeg')
-  print("finish: " + filename)
+  fn = os.path.join("/" + filename + ".jpeg")
+  image.save(fn, 'jpeg')
+  print("finish: " + fn)
 
 print(os.path)  
 
