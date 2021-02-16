@@ -15,7 +15,7 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
     - run: |
-        python -m pip install --upgrade pip PIL
-        python -m pip install --upgrade pip textwrap
-        python -m pip install --upgrade pip bs4
+        python -m pip3 install --upgrade pip PIL
+        python -m pip3 install --upgrade pip textwrap
+        python -m pip3 install --upgrade pip bs4
     - run: python previewenerator.py
