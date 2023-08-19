@@ -1,0 +1,42 @@
+
+
+
+[
+
+        {
+        "title"    : "Лермонтов",
+        "url"      : "/lermontov",
+        "content"  : "Лермонтов"
+        } ,
+
+        {
+        "title"    : "Аристотель",
+        "url"      : "/personality-20210113163928",
+        "content"  : "Аристотель"
+        } ,
+
+        {
+        "title"    : "Гераклит",
+        "url"      : "/personality-20210113072617",
+        "content"  : "Гераклит"
+        } ,
+
+        {
+        "title"    : "Достоевский",
+        "url"      : "/personality-20210113153341",
+        "content"  : "Достоевский"
+        } ,
+
+        {
+        "title"    : "Платон",
+        "url"      : "/platon",
+        "content"  : "Платон"
+        } ,
+
+        {
+        "title"    : "Гай Ричи",
+        "url"      : "/personality-20210212213634",
+        "content"  : "Гай Ричи"
+        } 
+
+]
